@@ -20,9 +20,10 @@ yarn hardhat run scripts/deploy.js --network goerli
 **The second implementation to be deployed on goerli is the ProxyAdmin contract**<br>
 **The third  implementation to be deployed on goerli is the TransparentProxy contract**<br>
 
-Those 2 last contracts are verified on goerli.etherscan.io but not the first one.
+Those 2 last contracts are verified on goerli.etherscan.io but not the first one.<br>
 
-Once done, go to the hardaht console as such : 
+Once done, go to your cli  and enter the hardhat console by typing :<br> 
+
 ```
 npx hardhat console --network goerli 
 
