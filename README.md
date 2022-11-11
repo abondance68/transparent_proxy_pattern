@@ -40,7 +40,7 @@ npx hardhat console --network goerli
 ```
 const Box  = await ethers.getContractFactory("Box")<br>
 const box  = await Box.attach("....address of the deployed TransparentProxy contract on goerli.....")<br>
-(await box.retrive()).toString()
+(await box.retrieve()).toString()
 
 ```
 
