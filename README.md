@@ -13,10 +13,12 @@ npx hardhat test
 yarn hardhat run scripts/deploy.js --network goerli 
 
 ```
+<br>
+
 
 **The first implementation contract to be deployed on goerli  is the Box.sol contract**<br>
-**The second one to be deployed on goerli is the ProxyAdmin contract**<br>
-**The third one to be deployed on goerli is the TransparentProxy contract**<br>
+**The second implemetation to be deployed on goerli is the ProxyAdmin contract**<br>
+**The third  implemetation to be deployed on goerli is the TransparentProxy contract**<br>
 
 Those 2 last contracts are verified on goerli.etherscan.io but not the first one.
 
