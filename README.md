@@ -5,11 +5,12 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 
 Try running some of the following tasks:
 
-```shell
-npx hardhat help
+```
 npx hardhat test
-
-
+```
+Deploy the contract to the testnet of your choice by changing the values in hardhat.config.js (in our example below
+we deploy to goerli) : <br> 
+``
 yarn hardhat run scripts/deploy.js --network goerli 
 
 ```
