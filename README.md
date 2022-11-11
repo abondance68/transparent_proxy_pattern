@@ -23,10 +23,11 @@ yarn hardhat run scripts/deploy.js --network goerli
 
 Those 2 last contracts are verified on goerli.etherscan.io but not the first one.
 
-Once done, go to your cli  and enter the hardhat console by typing :<br> 
+Once done, go to your cli  and enter the hardhat console by typing: 
 
 ```
 npx hardhat console --network goerli 
+
 ```
 <br>
 
