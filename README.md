@@ -12,7 +12,7 @@ Deploy the contract to the testnet of your choice by changing the values in hard
 we deploy to goerli) :
 
 
-``
+```
 yarn hardhat run scripts/deploy.js --network goerli 
 
 ```
