@@ -22,3 +22,15 @@ yarn hardhat run scripts/deploy.js --network goerli
 
 Those 2 last contracts are verified on goerli.etherscan.io but not the first one.
 
+Once done, go to the hardaht console as such : 
+```
+npx hardhat console --network goerli 
+
+const Box  = await ethers.getContractFactory("Box")
+const box  = await Box.attach("....address of the deployed TransparentProxy contract on goerli.....") 
+(await box.retrive()).toString()
+
+'42'
+
+
+
