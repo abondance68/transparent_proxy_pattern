@@ -28,13 +28,16 @@ Once done, go to your cli  and enter the hardhat console by typing :<br>
 ```
 npx hardhat console --network goerli 
 ```
+<br>
 
 **Once in the hardhat console,  type:** 
+
 
 ```
 const Box  = await ethers.getContractFactory("Box")<br>
 const box  = await Box.attach("....address of the deployed TransparentProxy contract on goerli.....")<br>
 (await box.retrive()).toString()
+
 ```
 
 The result should indicate : '42'
