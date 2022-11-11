@@ -9,12 +9,14 @@ Try running some of the following tasks:
 npx hardhat test
 ```
 Deploy the contract to the testnet of your choice by changing the values in hardhat.config.js (in our example below
-we deploy to goerli) : <br> 
+we deploy to goerli) :
+
+
 ``
 yarn hardhat run scripts/deploy.js --network goerli 
 
 ```
-<br>
+
 
 
 **The first implementation contract to be deployed on goerli  is the Box.sol contract**
@@ -24,6 +26,7 @@ yarn hardhat run scripts/deploy.js --network goerli
 Those 2 last contracts are verified on goerli.etherscan.io but not the first one.
 
 Once done, go to your cli  and enter the hardhat console by typing: 
+
 
 ```
 npx hardhat console --network goerli 
